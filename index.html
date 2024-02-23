@@ -7,65 +7,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
  
     <title>ArsyArts Apps</title>
-    <!-- <style>
-        #main_logo{
-            width: 100px;
-            margin-left: 15px;
-            margin-right: 50px;
-        }
-
-        /*#search_div{
-            float: left;
-        }*/
-
-        #search{
-            width: 200px;
-            margin-top: 15px;
-            height: .5in;
-        }
-
-        #search_button:hover{
-            background-color:  rgb(164, 164, 255);
-        }
-
-        .card {
-            display: flex;
-            flex-direction: column;
-            height: 100%;
-        }
-
-        .card-body {
-            flex: 1;
-        }
-
-        #card1, #card2, #card3 {
-            background-color: white;
-            width: 90%;
-            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
-            transition: transform 0.3s ease;
-        }
-
-        #card1:hover, #card2:hover, #card3:hover {
-            background-color: rgb(232, 234, 255);
-            transform: scale(1.05);
-        }
-
-        .btn-container {
-            display: flex;
-            justify-content: center;
-            align-items: flex-end;
-            height: 100%;
-        }
-
-        .btn {
-            width: 80%;
-            margin: 20px;
-        }
-    </style> -->
+    
 </head>
 <body>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
     <nav class="navbar navbar-expand-lg navbar-light bg-primary">
         <div class="container-fluid">
             <img src="ICONS/ARSYARTS_LOGO2_PNG.png" id="main_logo" class="card-img-top" alt="...">
@@ -106,8 +51,9 @@
     
 
     
-    <div class="" style="text-align: center; padding: 20px;">
-        <h1>My Apps</h1>
+    <div class="" style="text-align: center; margin: 20px;">
+        <h1>143</h1>
+        <img src="ICONS/MY_APPS_GIF.gif" id="myapps_gif" class="card-img-top" alt="...">
     </div>
 
 
@@ -121,14 +67,14 @@
                         <p class="card-text">A simple yet powerful calculator app designed to handle basic arithmetic operations like addition, subtraction, multiplication, and division.</p>
                     </div>
                     <div class="btn-container">
-                        <button class="btn btn-primary" type="button" onclick="to_calculator()" href="calculator.html">
+                        <button class="btn btn-primary" type="button" onclick="to_calculator()" href="app/calculator.html">
                             View App
                         </button>
                     </div>
                 </div>
                 <script>
                     function to_calculator() {
-                        window.location.href = 'calculator.html';
+                        window.location.href = 'app/calculator.html';
                     }
                 </script>
             </div>
@@ -140,14 +86,14 @@
                         <p class="card-text">Manage your tasks efficiently with this intuitive to-do list application. Stay organized, prioritize your tasks, and track your progress easily.</p>
                     </div>
                     <div class="btn-container">
-                        <button class="btn btn-primary" type="button" onclick="to_todo_list()" href="todo_list.html">
+                        <button class="btn btn-primary" type="button" onclick="to_todo_list()" href="app/todo_list.html">
                             View App
                         </button>
                     </div>
                 </div>
                 <script>
                     function to_todo_list() {
-                        window.location.href = 'todo_list.html';
+                        window.location.href = 'app/todo_list.html';
                     }
                 </script>
             </div>
@@ -159,14 +105,14 @@
                         <p class="card-text">Empower your searches with dynamic filtering and real-time results. Seamlessly find what you need as you type, making your search experience faster and efficient.</p>
                     </div>
                     <div class="btn-container">
-                        <button class="btn btn-primary" type="button" onclick="to_dynamic_search()" href="dynamic_search.html">
+                        <button class="btn btn-primary" type="button" onclick="to_dynamic_search()" href="app/dynamic_search.html">
                             View App
                         </button>
                     </div>
                 </div>
                 <script>
                     function to_dynamic_search() {
-                        window.location.href = 'dynamic_search.html';
+                        window.location.href = 'app/dynamic_search.html';
                     }
                 </script>
             </div>
